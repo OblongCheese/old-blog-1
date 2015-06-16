@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<div class="post">
+  {% if page.image %}
+    <div class="featuredImage">
+        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}" alt="" />
+      </div>
+  {% endif %}
+  <h1 class="postTitle">{{ page.title }}</h1>
+  <p class="meta">{{ page.date | date: '%B %d, %Y' }} | <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Minute Read</p>
+
+
+	<div id="map" style="height: 200px"></div>
+	<script src="{{ site.url }}lib/fancybox/jquery.fancybox.pack.js"></script>	
+	<script src="{{ site.url }}lib/reqwest.min.js"></script>
+	<script src="{{ site.url }}lib/leaflet/leaflet.js"></script>
+	<script src="{{ site.url }}/dist/Leaflet.Instagram.Fancybox.js"></script>
+
+	<script>
+	// create our map object
+	//var map = L.map('map').setView([-27.397551, 153.058281], 13);
+	var map = L.map('map').fitWorld();
+	// get tiles from mapbox
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+   		maxZoom: 18,
+    		id: 'thejimmydimple.a4929c55',
+    		accessToken: 'pk.eyJ1IjoidGhlamltbXlkaW1wbGUiLCJhIjoiNTM3OWExOGJiODczN2QwYjNjNGY2ZjUwZTg0MTFiOTcifQ.okt3hntNx7jgsA0DcLz5OA'
+	}).addTo(map); 
+	// display photos from instagram
+	L.instagram.fancybox('https://api.instagram.com/v1/users/33803954/media/recent?min_timestamp={{ page.date | date: "%s" }}&max_timestamp={{ page.date | date: "%s" | plus: 86400 }}&access_token=33803954.42e7a29.5f7d277e91a84278b9f229251a229544').addTo(map);
+	// bad solution: make another instagram query so we can get lat/long details...
+	$.getJSON('https://api.instagram.com/v1/users/33803954/media/recent?callback=?', {
+	min_timestamp: '{{ page.date | date: "%s" }}',
+	max_timestamp: '{{ page.date | date: "%s" | plus: 86400 }}',
+	access_token: '33803954.42e7a29.5f7d277e91a84278b9f229251a229544' 
+	}, function(resp) {
+	$("#loading").hide();
+	var markers = [];
+	// set nice-ish zoom level
+	map.setZoom(12, true);
+	$.each(resp.data, function(k, inst) {
+        // set the map view
+        //map.fitWorld();
+        map.panTo([inst.location.latitude, inst.location.longitude], true, 1);
+    	});
+	});
+	</script>
+<br/>
+  
+  {{ content }}
+
+  <!-- POST NAVIGATION -->
+  <div class="postNav clearfix">
+    {% if page.previous.url %} 
+      <a class="prev{% if page.previous.image %} image{% endif %}" href="{{ page.previous.url | prepend: site.baseurl }}"><span>&laquo;&nbsp;{{ page.previous.title }}</span>
+      {% if page.previous.image %} 
+        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.previous.image }}" alt="">
+      {% endif %}
+    </a>
+    {% endif %}  
+    {% if page.next.url %}  
+      <a class="next{% if page.next.image %} image{% endif %}" href="{{ page.next.url | prepend: site.baseurl }}"><span>{{ page.next.title }}&nbsp;&raquo;</span>
+      {% if page.next.image %} 
+        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.next.image }}" alt="">
+      {% endif %} 
+      </a>
+    {% endif %} 
+  </div>
+</div>
