@@ -1,7 +1,7 @@
 title: Travelog
 description: Carly & Owen's European Travelog
 
-url: https://owened.net/
+url: https://oblongcheese.github.io/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
