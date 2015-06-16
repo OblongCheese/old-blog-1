@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
-@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
 html {
     font-size: 100%;
     line-height: 1.5em
@@ -728,7 +728,7 @@ a:hover {
 .nav-collapse ul li {
     width: 100%;
     display: block;
-    background: seagreen;
+    background: #c85357;
     border-bottom: 2px solid #349e63
 }
 .nav-collapse ul li a {
@@ -761,7 +761,7 @@ a:hover {
     float: right;
     line-height: 2em;
     margin-top: .5em;
-    background-color: seagreen;
+    background-color: #c85357;
     border-radius: 4px;
     padding: 0 .5em;
     color: white;
@@ -794,8 +794,8 @@ dd {
     padding-top: 1em
 }
 .header {
-    background-color: seagreen;
-    background-image: url("http://members.iinet.net.au/~STICKLEY/sunset.jpg");
+    background-color: #21653f;
+    background-image: url("{{ '/assets/img/sunset.jpg' | prepend: site.baseurl }}");
     background-size: cover;
     background-position: center center;
     color: white;
@@ -843,7 +843,7 @@ dd {
     content: "";
     position: absolute;
     top: -1.25em;
-    background: seagreen;
+    background: #c85357;
     display: block;
     height: 2px;
     width: 150px;
@@ -853,7 +853,7 @@ dd {
     content: "";
     position: absolute;
     bottom: -1.25em;
-    background: seagreen;
+    background: #c85357;
     display: block;
     height: 2px;
     width: 150px;
