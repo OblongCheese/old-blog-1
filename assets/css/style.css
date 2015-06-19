@@ -274,7 +274,7 @@ th {
 .button-secondary,
 .button-tertiary,
 .button__outline {
-    background-color: #c85357;
+    background-color: #801515;
     display: inline-block;
     position: relative;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -303,7 +303,7 @@ th {
 .button__outline:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #c85357
+    background-color: #801515
 }
 .button:active,
 .button-secondary:active,
@@ -325,11 +325,11 @@ th {
 }
 .button__outline {
     background-color: transparent;
-    border: 3px solid #c85357;
-    color: #c85357
+    border: 3px solid #801515;
+    color: #801515
 }
 .button__outline:hover {
-    background-color: #c85357;
+    background-color: #801515;
     color: #fff
 }
 label {
@@ -358,7 +358,7 @@ input[type=password]:focus,
 input[type=number]:focus,
 input[type=search]:focus,
 textarea:focus {
-    border: 1px solid #c85357
+    border: 1px solid #801515
 }
 input[type=text].full-width,
 input[type=email].full-width,
@@ -532,7 +532,7 @@ th:last-child {
 .highlight .mi,
 .highlight .mo,
 .highlight .il {
-    color: #8ae234
+    color: #d46a6a
 }
 .highlight .o {
     color: #989DAA
@@ -684,11 +684,11 @@ body ul {
     margin: 0 0 2rem
 }
 ::-moz-selection {
-    background: #c85357;
+    background: #801515;
     color: white
 }
 ::selection {
-    background: #c85357;
+    background: #801515;
     color: white
 }
 img,
@@ -710,10 +710,10 @@ object {
     clear: both
 }
 a {
-    color: #c85357
+    color: #801515
 }
 a:hover {
-    color: #1b5233
+    color: #55000
 }
 .nav-collapse {
     z-index: 1
@@ -728,8 +728,8 @@ a:hover {
 .nav-collapse ul li {
     width: 100%;
     display: block;
-    background: #c85357;
-    border-bottom: 2px solid #349e63
+    background: #801515;
+    border-bottom: 2px solid #ffaaaa
 }
 .nav-collapse ul li a {
     color: white;
@@ -761,7 +761,7 @@ a:hover {
     float: right;
     line-height: 2em;
     margin-top: .5em;
-    background-color: #c85357;
+    background-color: #801515;
     border-radius: 4px;
     padding: 0 .5em;
     color: white;
@@ -773,7 +773,7 @@ a:hover {
 }
 .nav-toggle:hover {
     color: white;
-    background-color: #c85357
+    background-color: #801515
 }
 .noList {
     list-style: none;
@@ -794,7 +794,7 @@ dd {
     padding-top: 1em
 }
 .header {
-    background-color: #c85357;
+    background-color: #801515;
     background-image: url('/assets/img/sunset.jpg');
     background-size: cover;
     background-position: center center;
@@ -843,7 +843,7 @@ dd {
     content: "";
     position: absolute;
     top: -1.25em;
-    background: #c85357;
+    background: #801515;
     display: block;
     height: 2px;
     width: 150px;
@@ -853,7 +853,7 @@ dd {
     content: "";
     position: absolute;
     bottom: -1.25em;
-    background: #c85357;
+    background: #801515;
     display: block;
     height: 2px;
     width: 150px;
@@ -886,7 +886,7 @@ dd {
     margin-bottom: 2rem
 }
 .post .dropcap {
-    color: #c85357;
+    color: #801515;
     margin-right: .45rem
 }
 .post .featuredImage {
@@ -1002,13 +1002,13 @@ dd {
     height: 100%
 }
 .footer-links ul li a svg .outer-shape {
-    fill: #c85357
+    fill: #801515
 }
 .footer-links ul li a svg .inner-shape {
     fill: white
 }
 .footer-links ul li:hover a svg .outer-shape {
-    fill: #c85357
+    fill: #801515
 }
 .pagination .next {
     float: left
