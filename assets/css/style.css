@@ -795,7 +795,7 @@ dd {
 }
 .header {
     background-color: #21653f;
-    background-image: url("{{ '/assets/img/sunset.jpg' | prepend: site.baseurl }}");
+    background-image: url('/assets/img/sunset.jpg');
     background-size: cover;
     background-position: center center;
     color: white;
