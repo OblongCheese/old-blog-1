@@ -303,7 +303,7 @@ th {
 .button__outline:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #21653f
+    background-color: #c85357
 }
 .button:active,
 .button-secondary:active,
@@ -773,7 +773,7 @@ a:hover {
 }
 .nav-toggle:hover {
     color: white;
-    background-color: #21653f
+    background-color: #c85357
 }
 .noList {
     list-style: none;
@@ -794,7 +794,7 @@ dd {
     padding-top: 1em
 }
 .header {
-    background-color: #21653f;
+    background-color: #c85357;
     background-image: url('/assets/img/sunset.jpg');
     background-size: cover;
     background-position: center center;
@@ -1008,7 +1008,7 @@ dd {
     fill: white
 }
 .footer-links ul li:hover a svg .outer-shape {
-    fill: #21653f
+    fill: #c85357
 }
 .pagination .next {
     float: left

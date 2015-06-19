@@ -1,7 +1,7 @@
 title: Travelog
 description: Carly & Owen's European Travelog
 
-url: https://owened.net/
+url: http://owened.net/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
