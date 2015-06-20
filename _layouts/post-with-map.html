@@ -32,8 +32,8 @@ layout: default
 	L.instagram.fancybox('https://api.instagram.com/v1/users/33803954/media/recent?min_timestamp={{ page.date | date: "%s" | minus:86400 }}&max_timestamp={{ page.date | date: "%s" | plus:86400 }}&access_token=33803954.42e7a29.5f7d277e91a84278b9f229251a229544').addTo(map);
 	// bad solution: make another instagram query so we can get lat/long details...
 	$.getJSON('https://api.instagram.com/v1/users/33803954/media/recent?callback=?', {
-	min_timestamp: '{{ page.date | date: "%s" }}',
-	max_timestamp: '{{ page.date | date: "%s" | plus: 86400 }}',
+	min_timestamp: '{{ page.date | date: "%s" | minus:86400 }}',
+	max_timestamp: '{{ page.date | date: "%s" | plus:86400 }}',
 	access_token: '33803954.42e7a29.5f7d277e91a84278b9f229251a229544' 
 	}, function(resp) {
 	$("#loading").hide();
