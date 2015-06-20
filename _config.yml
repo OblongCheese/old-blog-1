@@ -16,7 +16,7 @@ keep_files: [mythweb]
 navigation:
  - title: Home
    url: /index.html
- - title: Photo Map
+ - title: Travel Map
    url: /map.html
  - title: About
    url: /about.html
