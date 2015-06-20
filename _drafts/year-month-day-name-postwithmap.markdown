@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-map
 title:  "Test Map Post"
 date:   2015-06-14
 ---
