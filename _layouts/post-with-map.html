@@ -29,7 +29,7 @@ layout: default
     		accessToken: 'pk.eyJ1IjoidGhlamltbXlkaW1wbGUiLCJhIjoiNTM3OWExOGJiODczN2QwYjNjNGY2ZjUwZTg0MTFiOTcifQ.okt3hntNx7jgsA0DcLz5OA'
 	}).addTo(map); 
 	// display photos from instagram
-	L.instagram.fancybox('https://api.instagram.com/v1/users/33803954/media/recent?min_timestamp={{ page.date | date: "%s" | minus: 86400 }}&max_timestamp={{ page.date | date: "%s" | plus: 86400 }}&access_token=33803954.42e7a29.5f7d277e91a84278b9f229251a229544').addTo(map);
+	L.instagram.fancybox('https://api.instagram.com/v1/users/33803954/media/recent?min_timestamp={{ page.date | date: "%s" | minus:86400 }}&max_timestamp={{ page.date | date: "%s" | plus:86400 }}&access_token=33803954.42e7a29.5f7d277e91a84278b9f229251a229544').addTo(map);
 	// bad solution: make another instagram query so we can get lat/long details...
 	$.getJSON('https://api.instagram.com/v1/users/33803954/media/recent?callback=?', {
 	min_timestamp: '{{ page.date | date: "%s" }}',
