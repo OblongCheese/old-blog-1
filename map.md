@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Travel Map
+title: Photo Map
 ---
 
 <div class="post">
-	<h1 class="pageTitle">Travel Map</h1>
+	<h1 class="pageTitle">Photo Map</h1>
 	<div id="map" style="height: 800px"></div>
 
 	<script src="lib/fancybox/jquery.fancybox.pack.js"></script>	
