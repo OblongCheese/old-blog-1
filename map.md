@@ -11,9 +11,10 @@ title: Travel Map
 	<script src="lib/reqwest.min.js"></script>
 	<script src="lib/leaflet/leaflet.js"></script>
 	<script src="../dist/Leaflet.Instagram.Fancybox.js"></script>
-
+	
+	<p>Welcome to our world. You can use your mousewheel or touchpad zoom control to zoom in to the map. Click, hold and drag on the map to pan around. You can click any photo to see the larger version.</p>
+	<br>
 	<script>
-
 	var map = L.map('map').setView([-27.47, 153], 13);
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
