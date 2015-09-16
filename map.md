@@ -23,6 +23,22 @@ title: Travel Map
 	}).addTo(map); 
 
 	L.instagram.fancybox('https://api.instagram.com/v1/users/33803954/media/recent?access_token=33803954.42e7a29.5f7d277e91a84278b9f229251a229544').addTo(map); 
+	
+	// bad solution: make another instagram query so we can get lat/long details...
+	$.getJSON('https://api.instagram.com/v1/users/33803954/media/recent?callback=?', {
+	count: 1,
+	access_token: '33803954.42e7a29.5f7d277e91a84278b9f229251a229544' 
+	}, function(resp) {
+	$("#loading").hide();
+	var markers = [];
+	// set nice-ish zoom level
+	map.setZoom(8, true);
+	$.each(resp.data, function(k, inst) {
+        // set the map view
+        //map.fitWorld();
+        map.panTo([inst.location.latitude, inst.location.longitude], true, 1);
+    	});
+	});
 
 	</script>
 
