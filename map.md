@@ -5,7 +5,7 @@ title: Photo Map
 
 <div class="post">
 	<h1 class="pageTitle">Photo Map</h1>
-	<p>Welcome to our world. You can use your mousewheel or touchpad zoom control to zoom in to the map. Click, hold and drag on the map to pan around. You can click any photo to see the larger version.</p>
+	<p>Welcome to our world. The map will start centred on our most recent photograph. You can use your mousewheel or touchpad zoom control to zoom in to the map. Click, hold and drag on the map to pan around to find other photos across Europe. You can click any photo to see the larger version.</p>
 
 	<div id="map" style="height: 800px"></div>
 	<script src="lib/fancybox/jquery.fancybox.pack.js"></script>	
@@ -35,7 +35,6 @@ title: Photo Map
 	map.setZoom(10, true);
 	$.each(resp.data, function(k, inst) {
         // set the map view
-        //map.fitWorld();
         map.panTo([inst.location.latitude, inst.location.longitude], true, 1);
     	});
 	});
