@@ -6,7 +6,6 @@ title: Photo Map
 <div class="post">
 	<h1 class="pageTitle">Photo Map</h1>
 	<p>Welcome to our world. You can use your mousewheel or touchpad zoom control to zoom in to the map. Click, hold and drag on the map to pan around. You can click any photo to see the larger version.</p>
-	<br>
 
 	<div id="map" style="height: 800px"></div>
 	<script src="lib/fancybox/jquery.fancybox.pack.js"></script>	
