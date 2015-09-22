@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Photo Map
+title: Travel Map
 ---
 
 <div class="post">
