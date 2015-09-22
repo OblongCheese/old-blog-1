@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Travel Map
+title: Photo Map
 ---
 
 <div class="post">
 	<h1 class="pageTitle">Photo Map</h1>
-	<div id="map" style="height: 800px"></div>
+	<p>Welcome to our world. You can use your mousewheel or touchpad zoom control to zoom in to the map. Click, hold and drag on the map to pan around. You can click any photo to see the larger version.</p>
+	<br>
 
+	<div id="map" style="height: 800px"></div>
 	<script src="lib/fancybox/jquery.fancybox.pack.js"></script>	
 	<script src="lib/reqwest.min.js"></script>
 	<script src="lib/leaflet/leaflet.js"></script>
 	<script src="../dist/Leaflet.Instagram.Fancybox.js"></script>
 	
-	<p>Welcome to our world. You can use your mousewheel or touchpad zoom control to zoom in to the map. Click, hold and drag on the map to pan around. You can click any photo to see the larger version.</p>
-	<br>
 	<script>
 	var map = L.map('map').setView([-27.47, 153], 13);
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -33,7 +33,7 @@ title: Travel Map
 	$("#loading").hide();
 	var markers = [];
 	// set nice-ish zoom level
-	map.setZoom(8, true);
+	map.setZoom(10, true);
 	$.each(resp.data, function(k, inst) {
         // set the map view
         //map.fitWorld();
