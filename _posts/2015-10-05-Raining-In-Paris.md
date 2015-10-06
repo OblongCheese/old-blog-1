@@ -13,4 +13,4 @@ title: Raining In Paris
 
 <p>The next thing I remember was Carly waking me up to inform me that it was 9 o'clock in the evening. We had planned to visit <em>Tour Eiffel</em>, but instead we elected to stay home and try to recover from our jet lag.</p>
 
-<p>Tomorrow we'll have to try and see ho time-efficient we can be to make up a little lost time!</p>
+<p>Tomorrow we'll have to try and see how time-efficient we can be to make up a little lost time!</p>
