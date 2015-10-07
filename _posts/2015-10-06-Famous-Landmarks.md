@@ -9,15 +9,15 @@ title: Famous Landmarks
 
 <p>We checked nearby cafes, bistros, restaurants and patisseries for their earliest opening times and came up with a few that claimed to open at 6AM. I say claimed because upon approaching several, all of whom told us to come back soon, we did not find a place to serve us breakfast until we were already on the doorstep of the Notre Dame at 7AM.</p>
 
-<p>Notre Dame is a sight to behold. It looks big on the outside but it's once you get inside that the grand scale of the building takes on another dimension. the ceilings are so high and the pillars are so large as to defy what seems possible with stone and wood. That and the 'mystical' religious nature of the building together form a sense of epicness that I have not experienced in regards to a building before today.</p>
+<p>Notre Dame is a sight to behold. It looks big on the outside but it's once you get inside that the grand scale of the building takes on another dimension. The ceilings are so high and the pillars are so large as to defy what seems possible with stone and wood. That and the 'mystical' religious nature of the building together form a sense of epicness that I have not experienced in regards to a building before today.</p>
 
-<p>Sainte-Chapelle was next on our list. We joined the line at about 8.30AM for a 9AM opening, except there were two problems:
+Sainte-Chapelle was next on our list. We joined the line at about 8.30AM for a 9AM opening, except there were two problems:
 
 * we joined the wrong line. The entrance to the Palais de Justice shares the same physical entrance to that of Sainte-Chapelle, and until the staff from Sainte-Chapelle erected the temporary queuing barriers this was not immediately apparent.
 
 * after the Sainte-Chapelle staff erected the queuing barriers, we realized that in the month of October, Sainte-Chapelle does not open until 9.30AM. In total we spent an hour queuing! 
 
-It was worth it in the end though as the famous stain glass windows of Sainte-Chapelle are a sight to behold. Extremely difficult to photograph, but certainly very pretty, and at nearly 800 years old it is a wonder that they have survived to this day.</p>
+It was worth it in the end though as the famous stain glass windows of Sainte-Chapelle are a sight to behold. Extremely difficult to photograph, but certainly very pretty, and at nearly 800 years old it is a wonder that they have survived to this day.
 
 <p>After we left Sainte-Chapelle we walked to the Luxembourg Gardens, which are situated just on the south side of the Siene. Encompassing the grounds of the Palace du Luxembourg, the gardens are a peaceful slice of tranquility in the busy arrondissements of Paris. We had a bite to eat (nutella crepes) and learned that in France, take-away means take-away: you cannot sit in a cafe or restaurant after deciding you wanted take-away, we learned, as the proprietor hastily shooed us away in clipped French as we made to take a seat. So instead we sat on a park bench nearby.</p>
 
