@@ -17,4 +17,4 @@ Woops, went off tangent there. After the museum visits we walked through Hyde Pa
 
 After Hyde Park we headed toward a pair of traditional English pubs and enjoyed a drink at Nag's Head. We also visited Grenadier but being a Friday night it was packed with nine-to-fivers starting their weekends so we did not spend long there. Plus there were roadworks outside which ruined all photography opportunities.
 
-We the n had dinner at a lovely restaurant in an upmarket part of town near Hyde Park Corner. This was the best meal I have eaten so far on this holiday: smoked pork, braised cheek, black pudding and some kind of deliciously cooked cabbage. Carly had some sort of chicken dish with healthy helping of meal regret.
+We then had dinner at a lovely restaurant in an upmarket part of town near Hyde Park Corner. This was the best meal I have eaten so far on this holiday: smoked pork, braised cheek, black pudding and some kind of deliciously cooked cabbage. Carly had some sort of chicken dish with healthy helping of meal regret.
