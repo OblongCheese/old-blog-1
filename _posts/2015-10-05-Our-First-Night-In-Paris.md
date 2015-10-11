@@ -19,4 +19,4 @@ title: Our First Night In Paris
 
 <p>Third and finally, after we finally arrived at our accommodation, we couldn't figure out how to get in to the apartment. The key was stashed secretly but we had forgotten the location. A few frantic calls to our host and we were good to go, but, after the flights, the waiting, the terrible walk and being lost, our nerves were quite frayed and we were so relieved to finally arrive!</p>
 
-<p><iframe width="420" height="315" src="https://www.youtube.com/embed/yNo-PpY5qlc" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="720" height="480" src="https://www.youtube.com/embed/yNo-PpY5qlc" frameborder="0" allowfullscreen></iframe></p>
