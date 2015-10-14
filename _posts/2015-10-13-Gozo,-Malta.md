@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-map
 title: Gozo, Malta
 ---
 
