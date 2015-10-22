@@ -5,7 +5,7 @@ title: Photo Map
 
 <div class="post">
 	<h1 class="pageTitle">Photo Map</h1>
-	<p>Welcome to our world. The map will start centred on our most recent photograph. You can use your mousewheel or touchpad zoom control to zoom in to the map. Click, hold and drag on the map to pan around to find other photos across Europe. You can click any photo to see the larger version.</p>
+	<p>Welcome to our world. The map will start centred on our most recent photograph. You can use your mousewheel or touchpad zoom control to zoom in to the map. Click, hold and drag on the map to pan around to find other photos across Europe. You can click any photo to see the larger version. To see all photos, visit <a href="https://instagram.com/thejimmydimple">my Instagram page</a>.</p>
 
 	<div id="map" style="height: 800px"></div>
 	<script src="lib/fancybox/jquery.fancybox.pack.js"></script>	
