@@ -18,3 +18,5 @@ The structure of Chambord is even more impressive inside, it's just so massive. 
 The exterior of Chambord is almost incomprehensible. It's larger than some of the castles we've seen. It's just stupidly large.
 
 After having our minds blown by those two châteaus, we started the long drive to Lyon, which turned out to be another campervan unfriendly place. We slept overnight in some kind of self-service campground on the outskirts of the city full of caravans with childrens toys strewn about the road and a small but loud dog who greeted us at 11PM, much to the chagrin of our new neighbours I'm sure. Now we wait for the morning to keep going to Bédoin.
+
+Oh and one more thing, Carly wouldn't let us go see Château ver de Fleur, despite my insistence that it is one of the finest wine-producing châteaus in Europe.
