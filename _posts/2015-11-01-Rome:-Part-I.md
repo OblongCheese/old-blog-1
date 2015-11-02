@@ -1,6 +1,6 @@
 ---
 layout: post-with-map
-title: Rome: Part I
+title: Rome - Part I
 ---
 
 
