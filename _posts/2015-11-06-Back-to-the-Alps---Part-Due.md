@@ -1,6 +1,6 @@
 ---
 layout: post-with-map
-title: Venice
+title: St. Johann's Church
 ---
 
 <p class="intro"><span class="dropcap">S</span>t. Johann's Church in Santa Magdalena, Italy. A quaint little church in the middle of nowhere at the foot of the Italian alps.</p>
